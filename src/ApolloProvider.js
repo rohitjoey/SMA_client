@@ -9,7 +9,7 @@ import React from "react";
 import App from "./App";
 
 const httplink = createHttpLink({
-  uri: "http://localhost:5000",
+  uri: "https://guarded-island-19637.herokuapp.com/",
 });
 
 const authLink = setContext(() => {
